@@ -1,0 +1,17 @@
+[user]
+        name = MilesChou
+        email = jangconan@gmail.com
+[core]
+        editor = vim
+        ignorecase = false
+        autocrlf = input
+[push]
+        default = simple
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        log = auto
+[alias]
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
+[difftool "icdiff"]
