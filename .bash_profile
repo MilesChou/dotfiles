@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Locale
+export LC_CTYPE=en_US.UTF-8
+
 # Global command alias
 alias ls="ls -G"
 
