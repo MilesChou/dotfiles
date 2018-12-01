@@ -5,6 +5,8 @@ alias ls="ls -G"
 
 # Initial path env
 PATH_LIST="
+/usr/local/opt/php@7.1/bin
+/usr/local/opt/php@7.1/sbin
 /usr/local/opt/go/libexec/bin
 /usr/local/sbin
 ${HOME}/.composer/vendor/bin
