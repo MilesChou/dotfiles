@@ -1,4 +1,4 @@
-set rtp+=/usr/local/lib/python3.6/site-packages/powerline/bindings/vim
+set rtp+=/usr/local/lib/python3.7/site-packages/powerline/bindings/vim
 
 " These lines setup the environment to show graphics and colors correctly.
 set nocompatible
@@ -18,17 +18,6 @@ endif
 set laststatus=2 " Always display the statusline in all windows
 set guifont=Inconsolata\ for\ Powerline:h14
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
-
-" Set Vundle
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdTree'
-
-call vundle#end()
 
 " My setting
 syntax on
