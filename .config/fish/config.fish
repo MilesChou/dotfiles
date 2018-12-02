@@ -3,6 +3,7 @@
 # Global command alias
 alias ls="ls -G"
 
+# Prepend paths
 set prepend_paths
 set prepend_paths $prepend_paths /usr/local/opt/php@7.1/bin
 set prepend_paths $prepend_paths /usr/local/opt/php@7.1/sbin
@@ -22,10 +23,10 @@ if command -sq composer
     alias composer="php -n /usr/local/bin/composer"
 end
 
-# nvm
-if test -d $HOME/.nvm
+# nvm, need fish-nvm https://github.com/FabioAntunes/fish-nvm
+if test -d (brew --prefix nvm)
     set -x NVM_DIR $HOME/.nvm
-    sh (brew --prefix nvm)/nvm.sh
+    set -x nvm_prefix (brew --prefix nvm)/nvm.sh
 end
 
 # Powerline
