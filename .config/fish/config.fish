@@ -26,7 +26,7 @@ end
 # nvm, need fish-nvm https://github.com/FabioAntunes/fish-nvm
 if test -d (brew --prefix nvm)
     set -x NVM_DIR $HOME/.nvm
-    set -x nvm_prefix (brew --prefix nvm)/nvm.sh
+    set -x nvm_prefix (brew --prefix nvm)
 end
 
 # Powerline
