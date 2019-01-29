@@ -5,6 +5,7 @@
         editor = vim
         ignorecase = false
         autocrlf = input
+        excludesfile = ~/.gitignore_global
 [push]
         default = simple
 [color]
