@@ -11,6 +11,7 @@ set prepend_paths $prepend_paths /usr/local/opt/go/libexec/bin
 set prepend_paths $prepend_paths /usr/local/sbin
 set prepend_paths $prepend_paths $HOME/.composer/vendor/bin
 set prepend_paths $prepend_paths $HOME/go/bin
+set prepend_paths $prepend_paths $HOME/bin
 
 for val in $prepend_paths
     if test -d $val
