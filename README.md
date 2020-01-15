@@ -2,6 +2,23 @@
 
 My dotfile
 
+## Installation
+
+Clone this repo and copy file you want.
+
+```bash
+git clone git@github.com:MilesChou/dotfiles.git
+
+# Copy .config for fish shell
+cp -R .config ~/
+
+# Copy git config
+cp .gitconfig ~/
+
+# Copy .vimrc
+cp .vimrc ~/
+```
+
 * [`.bash_profile`](.bash_profile)
 * [`.gitconfig`](.gitconfig)
 * [`.gitignore`](.gitignore)
