@@ -3,8 +3,6 @@
 # Prepend paths
 set prepend_paths
 set prepend_paths $prepend_paths /usr/local/opt/ruby/bin
-set prepend_paths $prepend_paths /usr/local/opt/php@7.1/bin
-set prepend_paths $prepend_paths /usr/local/opt/php@7.1/sbin
 set prepend_paths $prepend_paths /usr/local/opt/go/libexec/bin
 set prepend_paths $prepend_paths /usr/local/sbin
 set prepend_paths $prepend_paths $HOME/.composer/vendor/bin
