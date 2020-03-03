@@ -21,6 +21,11 @@ if test -d (brew --prefix nvm)
     set -x nvm_prefix (brew --prefix nvm)
 end
 
+# thefuck
+if test -d (brew --prefix thefuck)
+    thefuck --alias | source
+end
+
 # Powerline
 set fish_function_path $fish_function_path "/usr/local/lib/python3.7/site-packages/powerline/bindings/fish"
 powerline-setup
