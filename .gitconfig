@@ -15,3 +15,5 @@
         log = auto
 [alias]
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
+[pull]
+        rebase = true
