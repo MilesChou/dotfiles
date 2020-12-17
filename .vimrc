@@ -15,9 +15,16 @@ if ! has('gui_running')
    augroup END
 endif
 
-set laststatus=2 " Always display the statusline in all windows
+" Always display the statusline in all windows
+set laststatus=2
+
 set guifont=Inconsolata\ for\ Powerline:h14
-set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+
+" Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set noshowmode
+
+" In some shell + vim, backspace will broken, reset backspace signal
+set backspace=indent,eol,start
 
 " My setting
 syntax on
