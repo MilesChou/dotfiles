@@ -45,3 +45,8 @@ cd fonts && ./install.sh
 ```bash
 cp .vimrc ~/
 ```
+
+### Fish collection
+
+Fisher: https://github.com/jorgebucaran/fisher
+Pure Fish: https://github.com/pure-fish/pure

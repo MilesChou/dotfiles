@@ -27,5 +27,9 @@ if test -d (brew --prefix thefuck)
 end
 
 # Powerline
-set fish_function_path $fish_function_path "/usr/local/lib/python3.7/site-packages/powerline/bindings/fish"
-powerline-setup
+# set fish_function_path $fish_function_path "/usr/local/lib/python3.7/site-packages/powerline/bindings/fish"
+# powerline-setup
+
+# Pure Fish
+set fish_function_path /Users/miles/.config/fish/functions/theme-pure/functions/ $fish_function_path
+source /Users/miles/.config/fish/functions/theme-pure/conf.d/pure.fish
