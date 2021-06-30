@@ -31,7 +31,7 @@ end
 node -v > /dev/null
 
 # init phpbrew
-source ~/.phpbrew/phpbrew.fish
+# source ~/.phpbrew/phpbrew.fish
 
 # thefuck
 if test -d (brew --prefix thefuck)
